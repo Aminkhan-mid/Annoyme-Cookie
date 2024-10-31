@@ -38,7 +38,7 @@ form.addEventListener("submit", function(e){
         innerContent.innerHTML = 
         `
         <div>
-        <h1>Thanks, <span class="naEm">${name}</span>, you legedary sucker!!</h1>
+        <h1>Thanks, <span class="naEm">${name}</span>, you legendary sucker!!</h1>
         <img class="pirateImg" src="./images/pirate.gif">
         <h3 class="text">Sending dangerous viruses to <span class="naEm">${email}</span>....😈💻</h3>
         </div>
