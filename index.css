@@ -1,0 +1,131 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #D36135;
+    color: seashell;
+}
+
+h1, h2, h3, h4, .sucks{
+    text-align: center;
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.lorem{
+    width: 50%;
+}
+.flexOld{
+    display: flex;
+    justify-content: space-around;
+}
+.os{
+    display: block;
+    color: powderblue;
+}
+.me{
+    margin-top: 100px;
+    color: black;
+}
+.me, .os{
+    font-size: 20px;
+    font-weight: bold;
+}
+.close-pop{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 25px;
+}
+.close-pop:disabled{
+    color: gray;
+    filter: blur(1px);
+}
+.close-pop:hover,
+.close-pop:active{
+    color: yellow;
+    text-shadow: 0px 0px 6px yellow;
+}
+.popUp{
+    position: relative;
+    display: none;
+    background-color: #121;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.mainText{
+    margin:0px 10px;
+    font-size: 23px;
+}
+.flexInp{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.flexInp input::placeholder{
+    color: gray;
+    font-size:15px ;
+}
+.flexInp input{
+    padding: 15px 70px;
+    margin:10px;
+    border-radius: 10px;
+    border: none;
+}
+.flexBtn{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.change{
+    flex-direction: row-reverse;
+}
+.flexBtn button{
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+}
+.decline-btn{
+    background-color: gray;
+    color: white;
+}
+.flexBtn button:hover,
+.flexBtn button:active{
+    background-color: gainsboro;
+    color: navy;
+}
+
+.text{
+    margin:40px 0px;
+    font-size: 33px;
+}
+.svgImg{
+  width: 450px;
+  margin-bottom: 10px;
+}
+.naEm{
+    color:fuchsia;
+    text-shadow: 0px 0px 5px fuchsia;
+}
+
+.pirateImg{
+    border-radius: 10px;
+}
